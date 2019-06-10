@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+.parallax {
+  /* The image used */
+  background-image: url("wood-background.jpg");
+
+  /* Set a specific height */
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-firestore.js"></script>
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<script src="script.js"></script>
+<script src="chart.js"></script>
+  </head>
+  <body>
+    
+    
+<h1>kyodom<img src="Logo.png" alt="logo" style="width:32px;height:25px;">
+</h1>
+
+
+
+<p>The kyo kingdom</p>
+
+<!-- Container element -->
+<div class="parallax">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Who am I?')">Who am I?</button>
+  <button class="tablinks" onclick="openCity(event, 'Where is kyodom?')">Where is kyodom?</button>
+  <button class="tablinks" onclick="openCity(event, 'Origin')">Origin</button>
+</div>
+
+<div id="Who am I?" class="tabcontent">
+  <h3>Who am I?</h3>
+  <p>I am the almighty kyo.</p>
+</div>
+
+<div id="Where is kyodom?" class="tabcontent">
+  <h3>Where is kyodom?</h3>
+  <p>kyodom is near the USA.</p> 
+</div>
+
+<div id="Origin" class="tabcontent">
+  <h3>Origin</h3>
+  <p>kyodom is a subcontinent that broke off from the USA.</p>
+</div>
+<a href="newpage.html">kyodom</a>
+<div id="chartContainer" style="height: 150px; width: 250px;"></div>
+
+<input type="text" id="amount" defaultValue="Monthly amount...">
+
+<button onclick="buttonClicked()">Add/Subtract</button>
+
+<p id="demo"></p>
+
+<h4>*Chart from canvasjs.com</h4>
+</body>
+</html>

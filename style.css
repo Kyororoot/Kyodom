@@ -1,0 +1,86 @@
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius:14px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: lightgrey;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: lightgray;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid white;
+  border-top: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white
+};
+parallax{
+  border-radius:50px;
+}
+body{
+  background-color:slategray;
+}
+h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  position:absolute;
+  top:185px;
+  left:15px;
+}
+ a{
+   font-size:25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:white;
+ }
+
+#chartContainer {
+  top:500px;
+  left:100px;
+}
+
+h4{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:10px;
+  position:absolute;
+  top:1085px;
+}
+
+button{
+  border-radius: 20px;
+}
+
+h4 {
+  color:white;
+}
